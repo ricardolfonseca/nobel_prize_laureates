@@ -82,7 +82,10 @@ nobel_prize_laureates/
 │   └── nobel.csv
 │
 ├── notebooks/
-│   └── notebook.ipynb
+│   └── main.ipynb
+│
+├── scripts/
+│   └── functions.py
 │
 ├── README.md
 ```
