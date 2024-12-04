@@ -46,7 +46,7 @@ def get_max_value_and_plot(df, column_name, top_n=10):
         dodge=False,              # Ensure bars are not offset
         legend=False              # Hide the legend
     )
-    plt.title(f"Top {top_n} {column_name.capitalize()} Counts", fontsize=12)
+    plt.title(f"{column_name.capitalize()} Counts", fontsize=12)
     plt.xlabel("Count", fontsize=10)
     plt.ylabel(column_name.capitalize(), fontsize=10)
 
